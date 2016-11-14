@@ -17,7 +17,7 @@
 		C6AFC3E41B790E5D00AE02A0 /* EyeVerify.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6AFC3DF1B790D5800AE02A0 /* EyeVerify.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E70B85661B5D6F9400AD576F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7FD6DB61B55C57700CC5398 /* LaunchScreen.xib */; };
 		E70B85671B5D6F9C00AD576F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7FD6DB41B55C57700CC5398 /* Main.storyboard */; };
-		E7250A501DD97F1E00D6C4EE /* RegenerateController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7250A4F1DD97F1E00D6C4EE /* RegenerateController.m */; };
+		E73BEF6F1DD9A65A00A47A36 /* RegenerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73BEF6E1DD9A65A00A47A36 /* RegenerateViewController.m */; };
 		E7DD8A881DD83B9800C78F99 /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DD8A871DD83B9800C78F99 /* HomePageController.m */; };
 		E7FD6D9A1B55C49E00CC5398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD6D771B55C49E00CC5398 /* AppDelegate.m */; };
 		E7FD6D9B1B55C49E00CC5398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FD6D781B55C49E00CC5398 /* main.m */; };
@@ -71,8 +71,8 @@
 		C6AFC3DD1B790C9F00AE02A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C6AFC3DF1B790D5800AE02A0 /* EyeVerify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EyeVerify.framework; sourceTree = "<group>"; };
 		D9804741029D5109E78FE17D /* Pods_EVSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EVSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7250A4E1DD97F1E00D6C4EE /* RegenerateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegenerateController.h; sourceTree = "<group>"; };
-		E7250A4F1DD97F1E00D6C4EE /* RegenerateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegenerateController.m; sourceTree = "<group>"; };
+		E73BEF6D1DD9A65A00A47A36 /* RegenerateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegenerateViewController.h; sourceTree = "<group>"; };
+		E73BEF6E1DD9A65A00A47A36 /* RegenerateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegenerateViewController.m; sourceTree = "<group>"; };
 		E7B5046316DEB18700E1A3C6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		E7B5046516DEB18F00E1A3C6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E7B5046716DEB19500E1A3C6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -229,8 +229,8 @@
 				C62DCBAB1B5DB64500D7FBAA /* InstructionsViewController.swift */,
 				E7DD8A861DD83B9800C78F99 /* HomePageController.h */,
 				E7DD8A871DD83B9800C78F99 /* HomePageController.m */,
-				E7250A4E1DD97F1E00D6C4EE /* RegenerateController.h */,
-				E7250A4F1DD97F1E00D6C4EE /* RegenerateController.m */,
+				E73BEF6D1DD9A65A00A47A36 /* RegenerateViewController.h */,
+				E73BEF6E1DD9A65A00A47A36 /* RegenerateViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -378,10 +378,10 @@
 			files = (
 				E7FD6DCF1B55C72D00CC5398 /* UserViewController.m in Sources */,
 				C62DCBAC1B5DB64500D7FBAA /* WelcomeViewController.swift in Sources */,
+				E73BEF6F1DD9A65A00A47A36 /* RegenerateViewController.m in Sources */,
 				E7DD8A881DD83B9800C78F99 /* HomePageController.m in Sources */,
 				E7FD6DA51B55C49E00CC5398 /* ScanningOverlayView.m in Sources */,
 				E7FD6D9B1B55C49E00CC5398 /* main.m in Sources */,
-				E7250A501DD97F1E00D6C4EE /* RegenerateController.m in Sources */,
 				E7FD6DCC1B55C6CA00CC5398 /* VerifyResultViewController.m in Sources */,
 				E7FD6D9A1B55C49E00CC5398 /* AppDelegate.m in Sources */,
 				E7FD6DC91B55C6B700CC5398 /* VerifyViewController.m in Sources */,

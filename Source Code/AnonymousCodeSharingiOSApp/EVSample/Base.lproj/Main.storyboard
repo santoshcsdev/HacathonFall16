@@ -51,7 +51,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Logo-OpportunitiesUnlocked" translatesAutoresizingMaskIntoConstraints="NO" id="1Gv-bM-juc">
-                                <rect key="frame" x="238" y="164" width="125" height="125"/>
+                                <rect key="frame" x="234" y="20" width="125" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="125" id="Xpj-6m-2jF"/>
                                     <constraint firstAttribute="width" constant="125" id="ZuD-ms-VTo"/>
@@ -100,6 +100,17 @@
                                     <action selector="verify:" destination="dCm-Ce-U8S" eventType="touchUpInside" id="kbb-PP-9TD"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="anonymous_icon_by_slamiticon-d66rlzy-1" translatesAutoresizingMaskIntoConstraints="NO" id="nAM-wo-248">
+                                <rect key="frame" x="38" y="139" width="298" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Anonymous Code Sharing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vb-OB-Mx9">
+                                <rect key="frame" x="80" y="55" width="214" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.76885296560797534" green="0.88248984312490575" blue="0.97277768782383423" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -478,7 +489,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="Logo-OpportunitiesUnlocked" translatesAutoresizingMaskIntoConstraints="NO" id="oQy-rx-8QG">
-                                <rect key="frame" x="238" y="120" width="125" height="125"/>
+                                <rect key="frame" x="230" y="28" width="125" height="125"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="3Ib-Y5-Va5"/>
                                     <constraint firstAttribute="height" constant="125" id="TbN-LW-fG6"/>
@@ -504,6 +515,10 @@
                                     <segue destination="bL7-CO-dTA" kind="unwind" unwindAction="unwindToUserViewController:" id="q3S-mG-U5X"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="anonymous_icon_by_slamiticon-d66rlzy" translatesAutoresizingMaskIntoConstraints="NO" id="ZO2-Lv-Fjy">
+                                <rect key="frame" x="43" y="64" width="234" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -810,8 +825,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gig-fi-GL6">
-                                <rect key="frame" x="127" y="132" width="91" height="30"/>
+                                <rect key="frame" x="83" y="132" width="196" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Share Code" backgroundImage="img1">
                                     <color key="titleColor" red="0.25193234088799943" green="1" blue="0.39179458094322994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -820,17 +836,24 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W7l-AP-LgB">
-                                <rect key="frame" x="115" y="178" width="142" height="225"/>
+                                <rect key="frame" x="83" y="221" width="196" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.31748338820863087" green="1" blue="0.44521984714086238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2R2-zU-t8P">
-                                <rect key="frame" x="96" y="500" width="183" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Secure Code Sharing App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbN-Ad-cm0">
+                                <rect key="frame" x="34" y="94" width="293" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.086370887867317281" green="1" blue="0.12710541386614471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2R2-zU-t8P">
+                                <rect key="frame" x="96" y="488" width="183" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Regenerate Code" backgroundImage="img1">
                                     <color key="titleColor" red="0.39803468201798736" green="0.86160136010362698" blue="0.4515073227285552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -839,13 +862,6 @@
                                     <action selector="tappedOnRegenerate:" destination="ccG-DQ-bWQ" eventType="touchUpInside" id="cch-wI-0By"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Secure Code Sharing App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbN-Ad-cm0">
-                                <rect key="frame" x="34" y="94" width="293" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.086370887867317281" green="1" blue="0.12710541386614471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -858,96 +874,80 @@
             </objects>
             <point key="canvasLocation" x="-1428" y="-382.75862068965517"/>
         </scene>
-        <!--Regenerate Controller-->
-        <scene sceneID="1Iv-OW-3EL">
+        <!--Regenerate View Controller-->
+        <scene sceneID="mpN-RN-BJv">
             <objects>
-                <viewController storyboardIdentifier="RegenerateController" id="QL8-7M-NhD" customClass="RegenerateController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegenerateViewController" id="avg-4V-ugt" customClass="RegenerateViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="wvl-t6-iG0"/>
-                        <viewControllerLayoutGuide type="bottom" id="LTn-b3-Mm0"/>
+                        <viewControllerLayoutGuide type="top" id="miw-cA-xBP"/>
+                        <viewControllerLayoutGuide type="bottom" id="yR5-wq-SNA"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="l7z-5u-wzA">
+                    <view key="view" contentMode="scaleToFill" id="5kd-zl-tWO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-11-13 at 10.24.04 PM" translatesAutoresizingMaskIntoConstraints="NO" id="ihh-SD-TC3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-11-13 at 10.24.04 PM" translatesAutoresizingMaskIntoConstraints="NO" id="JSL-wT-1TU">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNd-X9-533">
-                                <rect key="frame" x="10" y="10" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="tappedOnBack:" destination="QL8-7M-NhD" eventType="touchUpInside" id="cEu-n0-GWI"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KC-NO-8w6">
-                                <rect key="frame" x="134" y="74" width="106" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" red="0.4070723746555831" green="1" blue="0.81249068010738434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjx-5B-Zg4">
-                                <rect key="frame" x="21" y="153" width="333" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="21"/>
-                                <state key="normal" title="Regenerate using 1 secret code" backgroundImage="img1">
-                                    <color key="titleColor" red="0.32332373286662353" green="1" blue="0.34654165716203" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="tappedOnRegenerateUsing1Code:" destination="QL8-7M-NhD" eventType="touchUpInside" id="DJ6-Sc-I6S"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pa-1Z-abc">
-                                <rect key="frame" x="25" y="247" width="329" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
-                                <state key="normal" title="Regenerate using 2 secret codes" backgroundImage="img1">
-                                    <color key="titleColor" red="0.2630580432342583" green="1" blue="0.23670388978820656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="tappedOnRegenerateUsing1Code:" destination="QL8-7M-NhD" eventType="touchUpInside" id="hhq-MZ-JjW"/>
-                                    <action selector="tappedOnRegenerateUsing2Codes:" destination="QL8-7M-NhD" eventType="touchUpInside" id="8AS-1L-RlT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EX5-qk-t1g">
-                                <rect key="frame" x="25" y="339" width="329" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="21"/>
-                                <state key="normal" title="Regenerate using 3 secret codes" backgroundImage="img1">
-                                    <color key="titleColor" red="0.18184225320034775" green="1" blue="0.18325530573841475" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="tappedOnRegenerateUsing3Codes:" destination="QL8-7M-NhD" eventType="touchUpInside" id="ixD-TC-g6z"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="regeneratedCode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSN-41-Gu8">
-                                <rect key="frame" x="39" y="469" width="302" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" red="0.20050799973440869" green="1" blue="0.55070715520346125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VU8-Nr-QCt">
-                                <rect key="frame" x="276" y="20" width="65" height="51"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUW-9s-nlP">
+                                <rect key="frame" x="288" y="20" width="54" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="back-button-hi"/>
+                                <connections>
+                                    <action selector="tappedBack:" destination="avg-4V-ugt" eventType="touchUpInside" id="yl2-qz-Fxf"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjw-A8-xTw">
+                                <rect key="frame" x="43" y="113" width="285" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Regenerate Using 1 code" backgroundImage="img1">
+                                    <color key="titleColor" red="0.45070343136167212" green="1" blue="0.33578750085442999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedOnRegenerateUsing1Code:" destination="avg-4V-ugt" eventType="touchUpInside" id="wp9-o8-Pwp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z4K-za-Bkj">
+                                <rect key="frame" x="43" y="233" width="285" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Regenerate Using 2 codes" backgroundImage="img1">
+                                    <color key="titleColor" red="0.38224203942977741" green="1" blue="0.29619557511134675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedOnRegenerateUsing2Codes:" destination="avg-4V-ugt" eventType="touchUpInside" id="jJt-5f-95N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyd-4I-XEh">
+                                <rect key="frame" x="43" y="354" width="285" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Regenerate Using 3 codes" backgroundImage="img1">
+                                    <color key="titleColor" red="0.37403154969882113" green="1" blue="0.27760068861724374" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedOnRegenerateUsing3Codes:" destination="avg-4V-ugt" eventType="touchUpInside" id="zuG-sU-Dwe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hq-73-4Yb">
+                                <rect key="frame" x="43" y="484" width="285" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.18444665617103362" green="1" blue="0.1681082797248048" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.36431758520153246" green="1" blue="0.25657105345174869" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="hello" destination="2KC-NO-8w6" id="dBc-xh-fv1"/>
-                        <outlet property="regenerateCode" destination="sSN-41-Gu8" id="BHd-hl-0G8"/>
-                        <outlet property="tappedOnBack" destination="hNd-X9-533" id="lYp-4r-2cJ"/>
-                        <outlet property="tappedOnRegenerateUsing1Code" destination="yjx-5B-Zg4" id="KLZ-uB-z7F"/>
+                        <outlet property="result" destination="5hq-73-4Yb" id="idN-nF-RaC"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gku-or-X9v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="En5-H8-u2o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-687.20000000000005" y="-383.65817091454278"/>
+            <point key="canvasLocation" x="-634.39999999999998" y="-383.65817091454278"/>
         </scene>
     </scenes>
     <resources>
@@ -955,6 +955,8 @@
         <image name="InstructionEyes" width="640" height="340"/>
         <image name="Logo-OpportunitiesUnlocked" width="161" height="53"/>
         <image name="Screen Shot 2016-11-13 at 10.24.04 PM" width="546" height="866"/>
+        <image name="anonymous_icon_by_slamiticon-d66rlzy" width="809" height="987"/>
+        <image name="anonymous_icon_by_slamiticon-d66rlzy-1" width="809" height="987"/>
         <image name="back-button-hi" width="600" height="601"/>
         <image name="gnome_panel_force_quit" width="128" height="128"/>
         <image name="img1" width="422" height="124"/>

@@ -8,7 +8,7 @@
 
 #import "HomePageController.h"
 #import "UserViewController.h"
-#import "RegenerateController.h"
+#import "RegenerateViewController.h"
 
 @interface HomePageController()
 
@@ -26,7 +26,7 @@
 
 - (IBAction)tappedOnShareCode:(id)sender {
     
-    NSURL *url = [NSURL URLWithString:@"http://10.205.0.57:4567/ret_result"];
+    NSURL *url = [NSURL URLWithString:@"http://192.168.1.213:4567/ret_result"];
     //The URL where you send the POST
     
     NSMutableURLRequest *req = [NSMutableURLRequest requestWithURL:url
@@ -66,8 +66,8 @@
 }
 
 - (IBAction)tappedOnRegenerate:(id)sender {
-    RegenerateController *regenerate_view = [self.storyboard
-                                                instantiateViewControllerWithIdentifier:@"RegenerateController"];
+    RegenerateViewController *regenerate_view = [self.storyboard
+                                                instantiateViewControllerWithIdentifier:@"RegenerateViewController"];
     [self presentViewController: regenerate_view animated:YES completion:NULL];
 }
 
