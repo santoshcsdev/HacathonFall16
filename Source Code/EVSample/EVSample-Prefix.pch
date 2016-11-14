@@ -1,0 +1,29 @@
+//
+// Prefix header for all source files of the 'EyeprintID' target in the 'EyeprintID' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <EyeVerify/EVSettings.h>
+#import <EyeVerify/EyeVerify.h>
+#import <EyeVerify/EVLicense.h>
+#endif
+
+//#define IS_WIDESCREEN ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+//#define IS_IPHONE ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPhone" ] )
+//#define IS_IPOD   ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPod touch" ] )
+//#define IS_IPHONE_5 ( IS_IPHONE && IS_WIDESCREEN )
+//#define IS_IPAD ( [ [ [ UIDevice currentDevice ] model ] isEqualToString: @"iPad" ] )
+
+//DEBUGGING flags
+//PUT DEFINES HERE THAT SHOULD NEVER MAKE IT TO RELEASE
+#ifndef NDEBUG
+
+#else //release
+
+#define NSLog(...)
+
+#endif
+
+static char *evLicenseCertificate = "eyeverify-demo";
